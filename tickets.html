@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tickets - Summer Music Festival Ireland</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+        /* Custom styles for white text */
+        h2, label {
+            color: white !important;
+        }
+
+
+
+        
+    </style>
+
+    
+</head>
+
+
+
+<body>
+    <header>
+        <div class="header-container">
+            <h1>MUSIC FESTIVAL 2024</h1>
+            <nav class="ui menu">
+                <a class="item" href="index.html">Home</a>
+                <a class="item" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+   
+    <main>
+        <section id="schedule">
+            <h2>EVENT SCHEDULE</h2>
+            <label for="event-date">Choose a date:</label>
+            <input type="date" id="event-date" name="event-date" onchange="showEvents()">
+            <div id="event-list"></div>
+            <h3>Upcoming Events:</h3>
+
+            
+           
+            <ul>
+               
+                <li> August 30, 2024 - Opening Concert <a href="tickets.html"></a></li>
+                <br>
+                <br>
+                <li>September 4 , 2024 - Indie Rock Showcase </li>
+                <br>
+                <br>
+                <li>September 7, 2024 - Jazz & Blues Night</li>
+                <br>
+                <br>
+                <li>Septemer 9, 2024 - Electronic Dance Party</li>
+                <br>
+                 <br>
+                <li>September       16, 2024 - Folk Music Festival</li>
+                <br> 
+                <br>
+            </ul>
+        </section>
+
+        <img src="pexels-pixabay-258804.jpg"
+
+        <section class="ui container">
+            <h2><e>Book Your Tickets</e></h2>
+
+
+            <form class="ui form booking-form">
+                <div class="field">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="field">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="field">
+                    <label for="ticket">Ticket Type:</label>
+                    <select id="ticket" name="ticket" class="ui dropdown">
+                        <option value="general">Day tickets</option>
+                        <option value="vip">Front row tickets</option>
+                        <option value="weekend">1 on 1</option>
+                        <option value="weekend">Weekend Pass</option>
+                        <option value="weekend">VIP + Weekend Pass</option>
+
+
+                    </select>
+                </div>
+                <button type="submit" class="ui button">Book Now</button>
+            </form>
+        </section>
+
+        <section class="ui container">
+            <h2>Ticket Prices</h2>
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th>Ticket Type</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Day tickets</td>
+                        <td>€50</td>
+                    </tr>
+                    <tr>
+                        <td>Front row tickets</td>
+                        <td>€120</td>
+                    </tr>
+                    <tr>
+                        <td>1 on 1</td>
+                        <td>€200</td>
+                    </tr>
+                    <tr>
+                        <td>Weekend Pass</td>
+                        <td>€300</td>
+                    </tr>
+                    <tr>
+                        <td>VIP + Weekend Pass</td>
+                        <td>€500</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer class="ui inverted vertical footer segment">
+        <div class="ui container">
+            <p>&copy; 2024 Summer Music Festival. All rights reserved.</p>
+        </div>
+    </footer>
+                               
+
+
+
+</body>
+
+</html>

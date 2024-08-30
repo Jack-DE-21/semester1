@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Light cyan background for the entire page */
+    color: #333; /* Dark text for contrast */
+}
+
+/* Header Styles */
+header {
+    background-color: #030303; /* Dark teal background for the header */
+    color: #f5eded;
+    padding: 30px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #faf6f6;
+    text-decoration: beige;
+    font-weight: bold;
+}
+
+/* Section Styles */
+section {
+    padding: 30px;
+    margin: 20px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better depth */
+}
+
+/* Schedule Section Specific Styles */
+#schedule {
+    background-color: #0f0f0f; 
+    color: #f3eded; 
+}
+
+#schedule h2 {
+    color: #ffffff; 
+}
+
+#event-date {
+    margin: 15px 0;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #faf8f8; /* White border for calendar input */
+    background-color: #ffffff; /* White background for calendar input */
+}
+
+#event-list p {
+    background-color: #f7f5f5; /* Dark teal for event items */
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* Vendor Styles */
+.vendor {
+    background-color: #00796b; /* Teal background for vendor elements */
+    color: #0c0c0c;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+/* Footer Styles */
+footer {
+    background-color: #030303; /* Dark teal footer background */
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+

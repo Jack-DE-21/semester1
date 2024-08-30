@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule - Music Festival 2024</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+<body>
+    <header>
+        <h1>MUSIC FESTIVAL 2024</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+               
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="schedule">
+        <h2>EVENT SCHEDULE</h2>
+        <p></p>
+
+        <!-- Calendar Input -->
+        <label for="event-date">Choose a date:</label>
+        <input type="date" id="event-date" name="event-date" onchange="showEvents()">
+
+        <!-- Display events based on date -->
+        <div id="event-list">
+            <!-- Events will be dynamically displayed here -->
+        </div>
+
+        <!-- Static List of Events -->
+        <h3>Upcoming Events:</h3>
+        <ul>
+            <li>August 15, 2024 - Opening Concert</li>
+
+            <li>August 16, 2024 - Indie Rock Showcase</li>
+
+            <li>August 17, 2024 - Jazz & Blues Night</li>
+
+            <li>August 18, 2024 - Electronic Dance Party</li>
+
+            <li>August 19, 2024 - Folk Music Festival</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Music Festival. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
